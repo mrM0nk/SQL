@@ -14,3 +14,5 @@ FROM 'C:/temp/project/samples/protocol.csv'
       FIELDTERMINATOR = ',' 
 )
 GO
+
+
