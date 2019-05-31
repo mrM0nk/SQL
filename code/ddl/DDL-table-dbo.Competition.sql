@@ -2,7 +2,8 @@ USE TestDB
 GO
 
 
-DROP TABLE IF EXISTS dbo.Competition
+IF OBJECT_ID('dbo.Competition', 'U') IS NOT NULL
+    DROP TABLE dbo.Competition
 GO
 
 
@@ -21,10 +22,4 @@ CREATE TABLE dbo.Competition
 	    CompetitionID
 	)
 )
-GO
-
-
-ALTER TABLE dbo.Competition
-    ADD CONSTRAINT DF_Competition_ModifiedDate DEFAULT GETDATE()
-    FOR ModifiedDate
 GO

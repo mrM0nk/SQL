@@ -2,7 +2,8 @@ USE TestDB
 GO
 
 
-DROP TABLE IF EXISTS dbo.clean_Competitions
+IF OBJECT_ID('dbo.clean_Competitions', 'U') IS NOT NULL
+    DROP TABLE dbo.clean_Competitions
 GO
 
 

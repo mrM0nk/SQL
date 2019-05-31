@@ -2,7 +2,8 @@ USE TestDB
 GO
 
 
-DROP TABLE IF EXISTS dbo.Disqualification
+IF OBJECT_ID('dbo.Disqualification', 'U') IS NOT NULL
+    DROP TABLE dbo.Disqualification
 GO
 
 
@@ -20,9 +21,4 @@ CREATE TABLE dbo.Disqualification
 	    DisqualificationID
 	)
 )
-GO
-
-ALTER TABLE dbo.Disqualification
-    ADD CONSTRAINT DF_Disqualification_ModifiedDate DEFAULT GETDATE()
-    FOR ModifiedDate
 GO

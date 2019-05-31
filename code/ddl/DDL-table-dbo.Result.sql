@@ -2,7 +2,8 @@ USE TestDB
 GO
 
 
-DROP TABLE IF EXISTS dbo.Result
+IF OBJECT_ID('dbo.Result', 'U') IS NOT NULL
+    DROP TABLE dbo.Result
 GO
 
 
@@ -20,10 +21,4 @@ CREATE TABLE dbo.Result
 	    ResultID
 	)
 )
-GO
-
-
-ALTER TABLE dbo.Result
-    ADD CONSTRAINT DF_Result_ModifiedDate DEFAULT GETDATE()
-    FOR ModifiedDate
 GO

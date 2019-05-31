@@ -2,7 +2,8 @@ USE TestDB
 GO
 
 
-DROP TABLE IF EXISTS dbo.Swimmer
+IF OBJECT_ID('dbo.Swimmer', 'U') IS NOT NULL
+    DROP TABLE dbo.Swimmer
 GO
 
 
@@ -22,10 +23,4 @@ CREATE TABLE dbo.Swimmer
 	    SwimmerID
 	)
 )
-GO
-
-
-ALTER TABLE dbo.Swimmer
-    ADD CONSTRAINT DF_Swimmer_ModifiedDate DEFAULT GETDATE()
-    FOR ModifiedDate
 GO

@@ -2,7 +2,8 @@ USE TestDB
 GO
 
 
-DROP TABLE IF EXISTS dbo.[Pool]
+IF OBJECT_ID('dbo.[Pool]', 'U') IS NOT NULL
+    DROP TABLE dbo.[Pool]
 GO
 
 
@@ -20,10 +21,4 @@ CREATE TABLE dbo.[Pool]
 	    PoolID
 	)
 )
-GO
-
-
-ALTER TABLE dbo.[Pool]
-    ADD CONSTRAINT DF_Pool_ModifiedDate DEFAULT GETDATE()
-    FOR ModifiedDate
 GO

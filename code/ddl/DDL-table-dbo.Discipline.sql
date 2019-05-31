@@ -2,7 +2,8 @@ USE TestDB
 GO
 
 
-DROP TABLE IF EXISTS dbo.Discipline
+IF OBJECT_ID('dbo.Discipline', 'U') IS NOT NULL
+    DROP TABLE dbo.Discipline
 GO
 
 
@@ -19,10 +20,4 @@ CREATE TABLE dbo.Discipline
 	    DisciplineID
 	)
 )
-GO
-
-
-ALTER TABLE dbo.Discipline
-    ADD CONSTRAINT DF_Discipline_ModifiedDate DEFAULT GETDATE()
-    FOR ModifiedDate
 GO

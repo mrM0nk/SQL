@@ -5,7 +5,7 @@ GO
 TRUNCATE TABLE dbo.stg_Competitions
 
 BULK INSERT dbo.stg_Competitions
-FROM 'C:/temp/sql/samples/protocol.csv'
+FROM 'C:/temp/sql/samples/protocol1.csv'
    WITH (
       FORMAT = 'csv',
 	  CODEPAGE = 65001,	 

@@ -2,7 +2,8 @@ USE TestDB
 GO
 
 
-DROP TABLE IF EXISTS dbo.[Group]
+IF OBJECT_ID('dbo.[Group]', 'U') IS NOT NULL
+    DROP TABLE dbo.[Group]
 GO
 
 
@@ -20,10 +21,4 @@ CREATE TABLE dbo.[Group]
 	    GroupID
 	)
 )
-GO
-
-
-ALTER TABLE dbo.[Group]
-    ADD CONSTRAINT DF_Group_ModifiedDate DEFAULT GETDATE()
-    FOR ModifiedDate
 GO
