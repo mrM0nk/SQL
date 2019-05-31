@@ -14,5 +14,3 @@ FROM 'C:/temp/sql/samples/protocol.csv'
       FIELDTERMINATOR = ',' 
 )
 GO
-
-
