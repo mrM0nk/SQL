@@ -1,7 +1,7 @@
 USE TestDB
 GO
 
---numerate gender swimmers
+--parsing gender swimmers
 DECLARE @number_id INT
 DECLARE @len_list INT
 DECLARE @check_list NVARCHAR(50)

@@ -1,7 +1,7 @@
 USE TestDB
 GO
 
---указываем ID в общей таблице из SwimmingClub, Pool, Discipline, Group
+--import ID out of SwimmingClub, Pool, Discipline, Group
 DECLARE @CleanID        INT
 DECLARE @SwimmingClubID INT
 DECLARE @PoolID         INT

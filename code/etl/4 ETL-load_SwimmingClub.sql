@@ -1,7 +1,7 @@
 USE TestDB
 GO
 
---вставляем данные о клубах спортсменов
+--load data about clubs
 INSERT INTO dbo.SwimmingClub (City, [NAME])
 SELECT city, team 
 FROM dbo.clean_Competitions

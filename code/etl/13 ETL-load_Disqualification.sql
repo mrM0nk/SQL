@@ -1,7 +1,7 @@
 USE TestDB
 GO
 
---импортируем данные в таблицу Disqualification
+--load data to table Disqualification
 INSERT INTO dbo.Disqualification ( CompetitionID, SwimmerID)
 SELECT CompetitionID, SwimmerID
 FROM dbo.clean_Competitions

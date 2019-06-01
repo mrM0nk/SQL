@@ -1,7 +1,7 @@
 USE TestDB
 GO
 
---вставляем данные о стилях заплыва
+--load data about styles
 INSERT INTO dbo.Discipline (Style, Distance)
 SELECT style, distance
 FROM dbo.clean_Competitions

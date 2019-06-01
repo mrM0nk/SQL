@@ -1,7 +1,7 @@
 USE TestDB
 GO
 
---импортируем данные в таблицу Result
+--load data to table Result
 INSERT INTO dbo.Result (CompetitionID, SwimmerID, [Time])
 SELECT CompetitionID, SwimmerID, result
 FROM dbo.clean_Competitions

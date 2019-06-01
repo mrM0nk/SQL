@@ -1,7 +1,7 @@
 USE TestDB
 GO
 
---вставляем данные о бассейне и месте проведения соревнований
+--load data about pool and competition
 INSERT INTO dbo.[Pool] (City, PoolSize)
 SELECT pool_city, pool_description 
 FROM dbo.clean_Competitions

@@ -1,7 +1,7 @@
 USE TestDB
 GO
 
---узнаем ид соревнования для каждого пловца
+--import ID competition
 DECLARE @CleanID   INT
 DECLARE @SwimmerID INT
 DECLARE @CompID    INT

@@ -1,7 +1,7 @@
 USE TestDB
 GO
 
---вставляем данные о группах плавцов на соревновании
+--load data sbout athlete group
 INSERT INTO dbo.[Group] ([Name], Gender)
 SELECT athlete_group, gender
 FROM dbo.clean_Competitions
