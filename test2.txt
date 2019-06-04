@@ -1,0 +1,38 @@
+starting scripts 
+-- processing C:\temp\sql\code\ddl\DDL-table-dbo.clean_Competitions.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-table-dbo.Competition.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-table-dbo.Discipline.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-table-dbo.Disqualification.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-table-dbo.Group.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-table-dbo.Pool.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-table-dbo.Result.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-table-dbo.stg_Competitions.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-table-dbo.Swimmer.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-table-dbo.SwimmingClub.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-constraint-dbo.Competition.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-constraint-dbo.Discipline.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-constraint-dbo.Disqualification.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-constraint-dbo.Group.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-constraint-dbo.Pool.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-constraint-dbo.Result.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-constraint-dbo.Swimmer.sql 
+Контекст базы данных изменен на "TestDB".
+-- processing C:\temp\sql\code\ddl\DDL-constraint-dbo.SwimmingClub.sql 
+Контекст базы данных изменен на "TestDB".
+User 12:54:18.42 Sun 06/02/2019 
