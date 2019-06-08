@@ -35,4 +35,3 @@ starting scripts
 Контекст базы данных изменен на "TestDB".
 -- processing C:\temp\sql\code\ddl\DDL-constraint-dbo.SwimmingClub.sql 
 Контекст базы данных изменен на "TestDB".
-User 12:54:18.42 Sun 06/02/2019 

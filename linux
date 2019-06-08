@@ -1,4 +1,4 @@
 #!/bin/bash
 
-pwd
-whoami
+workdir=`pwd`
+sqlcmd -S . -i /c/temp/sql/code/ddl/DDL-table-dbo.clean_Competitions.sql
